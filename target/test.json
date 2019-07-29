@@ -1,0 +1,213 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 19,
+        "name": "Acessar e Preencher o Cadastro da pagina Automationpractice",
+        "description": "",
+        "id": "testar-o-cadastro-da-automationpractice;acessar-e-preencher-o-cadastro-da-pagina-automationpractice;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 750532897,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8833015858,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que eu acessei a home page da Automationpractice",
+            "match": {
+              "location": "AutomationSteps.queEuAcesseiAHomePageDaAutomationpractice()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3850443183,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "eu clicar na opção de menu “SignIn” e preencher o email com testando@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testando@gmail.com",
+                  "offset": 60
+                }
+              ],
+              "location": "AutomationSteps.euClicarNaOpçãoDeMenuSignInEPreencherOTionooahGmailCom(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3074957790,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "preencher os campos sexo com Mr. ,nome com Thiago,Sobrenome Henrique,e senha 1234567",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mr.",
+                  "offset": 29
+                },
+                {
+                  "val": "Thiago",
+                  "offset": 43
+                },
+                {
+                  "val": "Henrique",
+                  "offset": 60
+                },
+                {
+                  "val": "1234567",
+                  "offset": 77
+                }
+              ],
+              "location": "AutomationSteps.PreencherosCamposParaCadastro(String,String,String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2455359129,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o campo dia com 23 ,o mes com 2 e o ano com 1996",
+            "match": {
+              "arguments": [
+                {
+                  "val": "23",
+                  "offset": 16
+                },
+                {
+                  "val": "2",
+                  "offset": 30
+                },
+                {
+                  "val": "1996",
+                  "offset": 44
+                }
+              ],
+              "location": "AutomationSteps.CamposDate(String,String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2410071879,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o campo compania com Teste ,endereco com Rua Jabaquara,cidade Vargem,estado Texas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Teste",
+                  "offset": 21
+                },
+                {
+                  "val": "Rua Jabaquara",
+                  "offset": 41
+                },
+                {
+                  "val": "Vargem,",
+                  "offset": 62
+                },
+                {
+                  "val": "Texas",
+                  "offset": 76
+                }
+              ],
+              "location": "AutomationSteps.CamposCadastro(String,String,String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 3554117547,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o campo zip com 56435,informacao TESTE,telefone 41591096,celular 973346931,email testandoALternativo@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "56435",
+                  "offset": 16
+                },
+                {
+                  "val": "TESTE",
+                  "offset": 33
+                },
+                {
+                  "val": "41591096",
+                  "offset": 48
+                },
+                {
+                  "val": "973346931",
+                  "offset": 65
+                },
+                {
+                  "val": "testandoALternativo@gmail.com",
+                  "offset": 81
+                }
+              ],
+              "location": "AutomationSteps.CamposdoCadastro(String,String,String,String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1923824093,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicar no botão Registrar",
+            "match": {
+              "location": "AutomationSteps.ClicarnoBotaoRegistrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 702313488,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "validar que o cadastro sera feito com sucesso e feito o login",
+            "match": {
+              "location": "AutomationSteps.ValidarCadastro()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Automation"
+          }
+        ]
+      }
+    ],
+    "name": "Testar o Cadastro da AutomationPractice",
+    "description": "",
+    "id": "testar-o-cadastro-da-automationpractice",
+    "keyword": "Funcionalidade",
+    "uri": "features/Grooth.feature",
+    "tags": []
+  }
+]
